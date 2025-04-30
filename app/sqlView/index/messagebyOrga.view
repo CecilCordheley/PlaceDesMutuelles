@@ -1,0 +1,23 @@
+    <div class="subject col mb-5" theme="#ID_THEME#" orga={var:user.ID_ORGA} closed=#CLOSED#>
+        <div class="card h-100">
+
+            <!-- topic details-->
+            <div class="card-body p-4">
+                <div class="text-center">
+                    <!-- topic name-->
+                    <h5 class="fw-bolder">#LIB_SUJET#</h5>
+                    <span class="text-muted">#THEME#</span>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Nombre de message : #NBMESSAGE#</li>
+                </ul>
+
+                <p class="card-text">#LASTMESSAGE#</p>
+            </div>
+            <!-- Topic actions-->
+            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="sujet-#ID_SUJET#-#URL_SUJET#.html">Voir ce topic</a>
+                </div>
+            </div>
+        </div>
+    </div>

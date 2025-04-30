@@ -1,0 +1,6 @@
+<tr>
+    <td>#LIB_SUJET#</th>
+    <td>#DATE_SUJET#</td>
+    <td>#DATE_CLOTURE#</td>
+    <td><a href="{:racine}sujet-#ID_SUJET#-#URL_SUJET#.html">Voir le sujet</a></td>
+</tr>

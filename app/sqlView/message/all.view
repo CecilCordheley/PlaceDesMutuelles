@@ -1,0 +1,5 @@
+<div data-bs-parent="#allMessage" class="message">
+    <section>#PSEUDO_USER#</section>
+    <section>le #DATE_M#</section>
+    <p>#CONTENT_MESSAGE#</p>
+</div>

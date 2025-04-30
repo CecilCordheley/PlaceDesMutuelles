@@ -1,0 +1,7 @@
+<tr>
+    <td>#ID_MESSAGE#</td>
+    <td>#DATE_M#</th>
+    <td>#CONTENT_MESSAGE#</td>
+    <td><a href="{:racine}sujet-#ID_SUJET#-#LIB_SUJET#.html">#LIB_SUJET#</a></td>
+    <td>#PSEUDO_USER#</td>
+</tr>

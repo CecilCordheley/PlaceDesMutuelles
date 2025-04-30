@@ -1,0 +1,27 @@
+<div class="message" id="message_#ID_MESSAGE#">
+    <div class='header'>
+        <img class='avatar' src='img/AVATAR/#AVATAR_USER#' alt="#PSEUDO_USER#"><span>#_DATE#</span> de <span
+            class='user'>#PSEUDO_USER#</span>
+    </div>
+    <p>#CONTENT_MESSAGE#</p>
+    {:IF #NB_REPONSE#>0}
+    <h3>Réponses:</h3>
+    <div class="reponse">
+        {LOOP:reponse_#ID_MESSAGE#}
+        <div>
+            <span>{#LOGIN#}</span> <span>{#SHORT_DATE#}</span> <span>{#CONTENT_REPONSE#}</span>
+        </div>
+        {/LOOP}
+    </div>
+    {:/IF}
+</div>
+{:IF {var:user.ID_USER}!#ID_USER#}
+<a data-target="reponse_#ID_MESSAGE#" href="#">Répondre</a>
+<form method="POST" form-target="reponse_#ID_MESSAGE#" action="{var:url}?reponse=#ID_MESSAGE#">
+    <input type="hidden" name="MessageReponse" value="#ID_MESSAGE#">
+    <div class="col-3">
+        <textarea class="form-control col-3" name="reponse"></textarea>
+    </div>
+    <button type="submit" class="btn btn-secondary">publier</button>
+</form>
+{:/IF}

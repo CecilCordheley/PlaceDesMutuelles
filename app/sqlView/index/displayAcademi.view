@@ -1,0 +1,13 @@
+<div class="card col-3" style="margin:5px; float:left">
+    <div class="card-body flex-row">
+        {:IF #LOGO#!NO_LOGO}
+        <img alt="#NOM_ORGA#" data-orga=#IDORGA# title="#NOM_ORGA#" class="card-logo" src='{:racine}img/MUTUELLE/#LOGO#'>
+        {:/IF}
+        <div>
+            <h5 class="card-title">#LIB_SUJET#</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">#LIB_THEME#</h6>
+            <p class="card-text">#LAST_MESSAGE#</p>
+            <a href="sujet-#ID_SUJET#-#LIB_SUJET#.html" class="card-link">Voir le sujet</a>
+        </div>
+    </div>
+</div>

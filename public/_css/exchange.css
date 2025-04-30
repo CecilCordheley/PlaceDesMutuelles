@@ -1,0 +1,33 @@
+.btn-day {
+    background: #6A3;
+    width: 200px;
+}
+
+.btn-day:hover {
+    background-color: #6A9;
+}
+[name=ExchangeList] ul{
+    height: 255px;
+    overflow: auto;
+}
+.historique tbody{
+    max-height: 500px;
+    overflow: auto;
+}
+[name=Planning] ul li,
+.agenda-jours ul li {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+#currentChat {
+    display: flex;
+    background: #888;
+    height: 255px;
+    overflow: auto;
+}
+#currentChat .current{
+    width: 80%;
+    align-self: flex-end;
+}

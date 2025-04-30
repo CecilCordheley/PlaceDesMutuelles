@@ -1,0 +1,81 @@
+main{
+max-height:450px;
+overflow:auto;
+}
+/*Accordion header statu*/
+.accordion-header.closed>button{
+    background-color:#555!important;
+    color:#FFF!important;
+}
+.accordion-header>button{
+background:#AADED8;
+}
+.accordion-body{
+display:flex;
+}
+.avatar{
+width:50px;
+}
+/*Message des reponse*/
+:root {
+    --paddingValue: 5px
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+}
+
+.message .header {
+    border-bottom: 1px solid #FF0;
+    margin: calc(var(--paddingValue) + 8px);
+    padding: 5px;
+}
+
+.message h3 {
+    font-size: 1rem;
+    margin: 0;
+    margin-left: 25px;
+    color: #FFF;
+}
+
+.reponse {
+    background: #8AA;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.reponse div {
+    width: 50%;
+}
+
+.message span {
+    color: #FFF;
+}
+
+.message span:first-child {
+    padding-left: calc(var(--paddingValue) + 40px);
+}
+[data-id_topic] {
+    max-height: 63vh;
+    overflow-x: auto;
+    border-bottom: 2px solid #999;
+    scroll-behavior: smooth;
+}
+
+span.user {
+    color: #FF0;
+}
+
+.message p {
+    background: #AAA;
+    padding: 10px;
+    width: 50%;
+    margin: 0;
+}
+
+textarea.unvalide {
+    border: 2px solid #F00;
+}

@@ -1,0 +1,9 @@
+.display{
+    height: 235px;
+    overflow: auto;
+}
+#updateForm{
+    overflow: auto;
+    height: 500px;
+    padding: 3px;
+}

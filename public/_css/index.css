@@ -1,0 +1,14 @@
+#carouselEvent .carousel-item{
+    height: 250px;
+    background:#223;
+    color: #FFF;
+}
+#carouselEvent .carousel-item h3{
+    border-bottom: 1px solid #FF0;
+}
+#carouselEvent .carousel-item h3>span{
+    font-size: .6em;
+}
+#carouselEvent .carousel-item p{
+    margin: 25px;
+}
